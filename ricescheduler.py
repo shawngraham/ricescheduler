@@ -14,7 +14,7 @@ def regex(keyword):
 
 def make_url(semester, year): 
     ''' Takes semester and year as strings, returns url to calendar '''
-    baseurl = 'https://registrar.rice.edu/calendars/'
+    baseurl = 'https://calendar.carleton.ca/academicyear/'
     url = baseurl + semester.lower() + year[-2:] + '/'
     return url
 
